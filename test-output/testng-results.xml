@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-15T14:05:10 IST" name="Suite" finished-at="2023-03-15T14:05:22 IST" duration-ms="12061">
+    <groups>
+    </groups>
+    <test started-at="2023-03-15T14:05:10 IST" name="Test" finished-at="2023-03-15T14:05:22 IST" duration-ms="12061">
+      <class name="com.kavya.businessscripts.GmailTest">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.kavya.businessscripts.GmailTest@1de76cc7]" started-at="2023-03-15T14:05:03 IST" name="OpenBrowser" finished-at="2023-03-15T14:05:10 IST" duration-ms="7002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="initReport()[pri:0, instance:com.kavya.businessscripts.GmailTest@1de76cc7]" started-at="2023-03-15T14:05:10 IST" name="initReport" finished-at="2023-03-15T14:05:10 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method is-config="true" signature="beforeTcExection(java.lang.reflect.Method)[pri:0, instance:com.kavya.businessscripts.GmailTest@1de76cc7]" started-at="2023-03-15T14:05:10 IST" name="beforeTcExection" finished-at="2023-03-15T14:05:10 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kavya.businessscripts.GmailTest.gmailTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTcExection -->
+        <test-method signature="gmailTest()[pri:0, instance:com.kavya.businessscripts.GmailTest@1de76cc7]" started-at="2023-03-15T14:05:10 IST" name="gmailTest" finished-at="2023-03-15T14:05:20 IST" duration-ms="9697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailTest -->
+        <test-method is-config="true" signature="afterTcExection(org.testng.ITestResult)[pri:0, instance:com.kavya.businessscripts.GmailTest@1de76cc7]" started-at="2023-03-15T14:05:20 IST" name="afterTcExection" finished-at="2023-03-15T14:05:22 IST" duration-ms="1810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gmailTest status=SUCCESS method=GmailTest.gmailTest()[pri:0, instance:com.kavya.businessscripts.GmailTest@1de76cc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTcExection -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.kavya.businessscripts.GmailTest@1de76cc7]" started-at="2023-03-15T14:05:22 IST" name="CloseBrowser" finished-at="2023-03-15T14:05:23 IST" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.kavya.businessscripts.GmailTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

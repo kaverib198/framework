@@ -1,0 +1,6 @@
+businessscripts,testdata and object repository are going to change in hybrid datadriven framework
+
+
+explianing prjct shld start from
+base==basetest,actionengine,commonmenthods
+listerners,supporters,utilities,then testdata,objectrepository then businessscripts after thes testng,popups,reports,drivers,screenshots,testng.xml,config

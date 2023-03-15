@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<parameter name="browser" value="chrome">
+<!--<listeners>
+       <listener class-name="com.kavya.listerners.TestCaseAcitivityAdpater"></listener>
+</listeners>-->
+
+<!--  <listeners>
+       <listener class-name="com.kavya.listerners.AnnotationAnlayzer"></listener>
+</listeners>-->
+
+
+  <test thread-count="5" name="Test">
+    <classes>
+   <!--   <class name="com.kavya.listerners.RetryTest"/>-->
+        <class name="com.kavya.businessscripts.GmailTest"/> 
+    <!--    <class name="com.kavya.businessscripts.FbTest"/> --> 
+   <!--    <class name="com.kavya.businessscripts.FpTest"/> --> 
+    <!--   <class name="com.kavya.businessscripts.InstasTest"/> --> 
+      
+    </classes> 
+  </test> <!-- Test --> 
+  </parameter> 
+</suite> <!-- Suite -->
